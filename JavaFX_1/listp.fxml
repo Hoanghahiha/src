@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX_1.ProductListController">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="780.0">
+            <children>
+                <Text layoutX="335.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product List" wrappingWidth="123.9287109375">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+                <Button layoutX="624.0" layoutY="15.0" mnemonicParsing="false" onAction="#formScreen" prefHeight="28.0" prefWidth="135.0" text="Add Product">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <TableView fx:id="tbView" layoutX="17.0" layoutY="86.0" prefHeight="514.0" prefWidth="747.0">
+                    <columns>
+                        <TableColumn fx:id="cTen" prefWidth="271.0" text="Ten" />
+                        <TableColumn fx:id="cGia" prefWidth="134.0" text="Gia" />
+                        <TableColumn fx:id="cDonVi" prefWidth="135.0" text="Don vi" />
+                        <TableColumn fx:id="cSoLuong" prefWidth="206.0" text="So luong" />
+                    </columns>
+                </TableView>
+            </children></AnchorPane>
+    </content>
+</ScrollPane>

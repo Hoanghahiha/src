@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="CanteenMs.HomeController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#nhanVienModule" layoutX="123.0" layoutY="153.0" mnemonicParsing="false" prefHeight="107.0" prefWidth="221.0" text="Nhan vien">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="445.0" layoutY="153.0" mnemonicParsing="false" prefHeight="107.0" prefWidth="221.0" text="Khach Hang">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="123.0" layoutY="322.0" mnemonicParsing="false" prefHeight="107.0" prefWidth="221.0" text="Kho hang">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="445.0" layoutY="322.0" mnemonicParsing="false" prefHeight="107.0" prefWidth="221.0" text="Hoa don">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Text layoutX="275.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quan ly canteen">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
